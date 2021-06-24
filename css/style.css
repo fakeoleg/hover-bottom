@@ -13,6 +13,7 @@
 .cla1 {
     display: flex;
     place-self: center;
+    text-decoration: none;
 }
 
 body {background-color: rgb(231, 255, 254) ;}
@@ -101,7 +102,7 @@ margin-top: 8px;
     margin-left: 9px;
 }
 
-.text-call {
+.call-me {
     margin-left: 25px;
     font-family: Geneva, Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -109,13 +110,21 @@ margin-top: 8px;
     
 }
 
-.call-me-0 {
-
-}
 .tel1 {
+    text-decoration: none;
+    color: #7e9cffee;
 
 }
 
 .tel2 {
+    text-decoration: none;
+    color: #7e9cffee;
+}
 
+div {
+    display: block;
+}
+
+html {
+    line-height: 1.428571429;
 }
